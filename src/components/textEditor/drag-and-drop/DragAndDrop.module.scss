@@ -1,0 +1,30 @@
+
+
+.container {
+  position: relative;
+
+  padding: 15px 10px;
+
+  width: 100%;
+
+  color: var(--accent-text-color);
+
+  background-color: var(--light-accent-color);
+  border-radius: 12px;
+  box-shadow: var(--text-editor-shadow);
+}
+
+.overlay{
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 12px;
+
+  pointer-events: none;
+}

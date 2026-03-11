@@ -1,0 +1,26 @@
+
+.wrapper{
+  position: relative;
+
+  .text_display{
+    white-space: pre-wrap; /* зберігає \n як переноси рядків */
+    word-wrap: break-word; /* щоб текст не виходив за межі */
+
+    a {
+      color: rgb(56, 119, 184);
+  
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .quote_btn{
+    padding: 4px 8px;
+
+    color: var(--light-accent-color);
+    background-color: var(--accent-color);
+    border-radius: 28px;
+
+    box-shadow: var(--second-shadow);
+  }
+}

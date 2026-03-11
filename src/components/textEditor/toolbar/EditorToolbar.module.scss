@@ -1,0 +1,28 @@
+
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+  width: 100%;
+
+  background-color: var(--white-color);
+  border-radius: 25px;
+
+  padding: 5px 10px;
+}
+
+.actions_block{
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.tools_list{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

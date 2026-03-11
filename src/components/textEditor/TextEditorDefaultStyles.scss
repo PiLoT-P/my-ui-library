@@ -1,0 +1,26 @@
+
+.screenshot {
+  height: auto;       // автоматична висота пропорційно
+  
+  max-width: 600px;   // максимум по ширині
+  max-height: 550px;  // максимум по висоті
+
+  margin: 8px 0;
+  object-fit: contain; // зберігає пропорції
+
+  display: inline-block;
+  vertical-align: middle;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.user-marker{
+  font-weight: 600;
+  color: rgb(56, 119, 184);
+  
+  &:hover{
+    text-decoration: underline;
+  }
+}

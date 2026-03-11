@@ -1,0 +1,69 @@
+
+.container{
+    position: relative;
+    padding: 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 320px;
+    height: 200px;
+
+    border-radius: 10px;
+    background-color: var(--white-color);
+    box-shadow: var(--custom-shadow);
+
+    .text_field{
+        width: 100%;
+        padding: 5px 10px;
+        
+        border: 1px solid var(--text-color);
+        border-radius: 10px;
+        outline: none;
+    }
+
+    .btn_close{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+    }
+
+    .notFind{
+        text-align: center;
+    }
+}
+
+.users_list{
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    overflow: hidden;
+    overflow-y: auto;
+
+    .btn_user{
+        height: 100%;
+        width: 100%;
+
+        padding: 8px 5px;
+
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        color: var(--accent-text-color);
+        text-align: start;
+        border-radius: 5px;
+
+        &:hover{
+            background-color: rgba($color: var(--text-color-rgb), $alpha: 0.1);
+        }
+
+        &.btn_user_selected{
+            background-color: rgba($color: var(--text-color-rgb), $alpha: 0.1);
+        }
+    }
+}
